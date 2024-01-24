@@ -1,16 +1,56 @@
+/* small device */
 @media screen and (max-width:576px) {
-    .skils-container, .resume-content, .about-info-container, .contact{
+
+    nav,
+    .skils-container,
+    .resume-content,
+    .about-info-container,
+    .contact,
+    .banner {
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
     }
-   .about-me{
-    padding: 20px;
-   }
-   .contact input[type="text"], input[type="email"], textarea {
-    margin-bottom: 24px;
-    border: 0;
-    width: 100%;
-    padding: 18px 0px;
+
+    .banner{
+        margin: 0 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .about-me {
+        padding: 20px;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        margin-bottom: 24px;
+        border: 0;
+        width: 100%;
+        padding: 18px 5px;
+    }
 }
+
+
+/* medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .about,
+    .contact {
+        padding: 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
 }
