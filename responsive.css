@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .skils-container, .resume-content, .about-info-container, .contact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+   .about-me{
+    padding: 20px;
+   }
+   .contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 0px;
+}
+}
